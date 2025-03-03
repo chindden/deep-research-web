@@ -95,7 +95,6 @@
 
   // Try to find available AI models based on selected provider
   const debouncedListAiModels = useDebounceFn(async () => {
-    if (!config.value.ai.apiKey) return
     if (!aiApiBase.value || !aiApiBase.value.startsWith('http')) return
 
     try {
@@ -159,6 +158,8 @@
       config.value.ai.apiBase = ''
       config.value.ai.model = ''
       config.value.ai.contextSize = undefined
+      aiModelOptions.value = []
+      isLoadAiModelsFailed.value = false
     },
   )
   // Reset web search config when provider changed
