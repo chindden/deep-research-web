@@ -22,7 +22,9 @@ Please give a 🌟 Star if you like this project!
 
 ## Sponsor
 
+<a href="https://www.swiftproxy.net/?ref=anotiawang">
 <img width="415" alt="image" src="https://github.com/user-attachments/assets/df889a5f-c4fc-4209-b49d-9c7dc8b9c3ca" />
+</a>
 
 **Unlock Reliable Proxy Services with Swiftproxy**
 
